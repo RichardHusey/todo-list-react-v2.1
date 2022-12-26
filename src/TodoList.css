@@ -1,0 +1,39 @@
+.add-todo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.add-todo ol.todo-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.add-todo ol.todo-lists div {
+  display: flex;
+}
+
+.add-todo ol.todo-lists div li {
+  flex: 1;
+}
+.todo-completed {
+  position: relative;
+  transition: opacity 0.8s linear;
+  text-decoration-line: line-through;
+}
+.todo-incompleted {
+  position: relative;
+}
+.total {
+  display: flex;
+  margin-top: 20px;
+  border-top: 2px solid black;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
